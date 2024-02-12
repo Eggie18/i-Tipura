@@ -679,6 +679,68 @@ hr{
 
 
 /**About Us**/
+.aboutus{
+  position: relative;
+  padding: 100px;
+  text-align: center;
+  top: 50px;
+}
+
+
+
+.aboutus .box .content{
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.aboutus b{
+  font-size: 80px;
+}
+
+.aboutus p{
+  margin: 25px;
+} 
+
+
+
+.contactus .box .content{
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.contactus{
+  position: relative;
+  padding: 100px;
+  text-align: center;
+  bottom: 140px;
+}
+
+.contactus b{
+  font-size: 80px;
+  left: 1000px;
+}
+
+.contactus h4{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.contactus ul{
+  list-style: none;
+  margin-left: 20px ;
+}
+.contactus ul li{
+  margin: 10px;
+}
+
+.contactus ul li h3{
+  font-style: italic;
+  opacity: 0.7;
+}
 
 
 
@@ -723,3 +785,249 @@ hr{
     font-style: italic;
     font-size: 19px;
   }
+  /**End of main css**/
+
+/**start of suffering"@media"********************************************************************************/
+
+  @media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  html {
+    background-color: whitesmoke;
+    overflow: hidden;
+    font-family: Verdana;
+    min-width: 100px;
+    min-height: 100px;
+  }
+
+  .menu{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(0, 59, 103);
+    left: 100px;
+    width: 100%;
+    height: 90px;
+
+  }
+
+  .line{
+    background-color: rgb(9, 88, 131);
+    width: 100%;
+    height: 45px;
+  }
+
+
+
+  .logo img{
+    position: relative;
+    left: 575px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 20%;
+  }
+
+  .menu .logo{
+    position: relative;
+    padding: 20px;
+    left: 5px;
+    text-decoration: none;   
+  }
+
+  .line{
+    background-color: rgb(9, 88, 131);
+    width: 454px;
+    height: 45px;
+  }
+
+  .logo img{
+    position: relative;
+    left: 96px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 20%;
+  }
+    
+  .menu .logo{
+    position: relative;
+    padding: 20px;
+    left: 5px;
+    text-decoration: none;   
+  }
+
+  .line ul{
+    position: absolute;
+    margin-top: 1%;
+    left: 17px;
+ 
+ }
+ 
+ .line ul li{
+    
+    font-size: 15px;
+    display: inline;
+    padding:10px;
+    
+ }
+ 
+ .line ul li a{
+ 
+    color: ghostwhite;
+    text-decoration: none;
+     /*header done*/
+ }
+
+ .slideframe{
+  width:382px;
+  height: 77px;
+  position: relative;
+  transform: translate(-50,-50);
+  top: 84px;
+  right: 1%;
+  overflow-x: hidden;
+  border: solid black;
+  border-radius: 5px;
+  left: 15px;
+}
+
+.slideimage{
+  width: 100%;
+  display: flex;
+  animation: slide 30s infinite;
+
+}
+
+@keyframes slide{
+  /*If going to add more image add -100%*/
+  0%{
+      transform: translateX(0%);
+  }
+
+  25%{
+      transform: translateX(0%);
+  }
+
+  30%{
+      transform: translateX(-100%);
+  }
+
+  50%{
+      transform: translateX(-100%);
+  }
+
+  55%{
+      transform: translateX(-100%);
+  }
+  75%{
+      transform: translateX(-100%);
+  }
+
+  80%{
+      transform: translateX(0%);
+  }
+
+  90%{
+      transform: translateX(0%);
+  }
+
+  100%{
+      transform: translateX(0%);
+  }
+}
+
+.slideframe img{
+  width: 100%;
+
+}
+
+.productimages img{
+  height: 100px;
+  width: 100px;
+  left: 2px;
+  margin: 50px;
+  align-content: space-between;    
+}
+
+
+.tag{
+ position: relative;
+ top: 490px;
+ left: 570px;
+}
+
+.productimages img{
+  position: relative;
+  top: 200px;
+  
+}
+
+.productimages img:hover{
+  position: relative;
+  background-color: grey;
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.2);
+  border-radius: 40px;
+  
+}
+/*footer*/
+
+footer{
+  position: relative;
+  display: flex;
+  top: 700px;
+  background-color:rgb(3, 28, 50);
+  width: 419px;
+  
+  
+  
+  
+
+}
+footer img{
+  position: relative;
+  left: 15px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+
+footer ul{
+  position: relative;
+  top: 12px;
+  left: 10px;
+  display: flex;
+
+  
+}
+
+footer ul li{
+  
+  display: flex; 
+  margin: 20px;
+ 
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: ghostwhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 10px;
+}
+
+/*end of footer*/
+
+
+
+
+
+  }
+  
+  
+
+
+/**end of 600px**/

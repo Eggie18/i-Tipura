@@ -1,0 +1,725 @@
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+
+
+html{
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    font-family: Verdana;
+}
+ 
+
+
+.menu{
+display: flex;
+align-items: center;
+padding: 20px;
+
+background-color: rgb(0, 59, 103);
+left: 100px;
+width: 100%;
+height: 90px;
+
+}
+
+.line{
+background-color: rgb(9, 88, 131);
+width: 100%;
+height: 45px;
+}
+
+
+
+.logo img{
+    position: relative;
+    left: 575px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 20%;
+}
+    
+.menu .logo{
+   position: relative;
+   padding: 20px;
+   left: 5px;
+   text-decoration: none;   
+}
+
+
+.line ul{
+   position: absolute;
+   margin-top: 1%;
+   left: 450px;
+
+}
+
+.line ul li{
+   
+   font-size: 15px;
+   display: inline;
+   padding:20px;
+   
+}
+
+.line ul li a{
+
+    color: ghostwhite;
+    text-decoration: none;
+    
+}
+
+.slideframe{
+    width: 200vmin;
+    position: absolute;
+    transform: translate(-50,-50);
+    top: 40%;
+    right: 1%;
+    overflow: hidden;
+    border: solid black;
+    border-radius: 5px;
+    left: 20px;
+}
+
+.slideimage{
+    width: 100%;
+    display: flex;
+    animation: slide 30s infinite;
+
+}
+
+@keyframes slide{
+    /*If going to add more image add -100%*/
+    0%{
+        transform: translateX(0%);
+    }
+
+    25%{
+        transform: translateX(0%);
+    }
+
+    30%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-100%);
+    }
+
+    55%{
+        transform: translateX(-100%);
+    }
+    75%{
+        transform: translateX(-100%);
+    }
+
+    80%{
+        transform: translateX(0%);
+    }
+
+    90%{
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.slideframe img{
+    width: 100%;
+
+}
+
+
+.productimages img{
+    height: 200px;
+    left: 50px;
+    margin: 50px;
+    align-content: space-between;    
+  }
+
+  
+ .tag{
+   position: relative;
+   top: 490px;
+   left: 570px;
+ }
+  
+  .productimages img{
+    position: relative;
+    top: 500px;
+    
+  }
+
+  .productimages img:hover{
+    position: relative;
+    background-color: grey;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.2);
+    border-radius: 40px;
+    
+  }
+
+
+  /**Product categories**/
+/**.sidemenu{
+  position: relative;
+  left: 40px;
+  top: 600px;
+  
+  width: 170px;
+  height: 220px;
+}
+
+.sidemenu ul{
+  margin: 15px;
+  list-style: none;
+  
+}
+
+.sidemenu ul a{
+  position: relative;
+  left: 15px;
+  top: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+**/
+
+.productcat{
+  position: relative;
+  left: 209px;
+  top: 50px;
+  border: 1px solid black;
+  width: 990px;
+  margin-bottom: 100px;
+  
+}
+
+.productcat .tag2{
+  position: relative;
+  left: 370px;
+}
+
+.productcat img{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+ 
+}
+
+.productcat img:hover{
+    background-color: grey;
+    transition: all 0.4s ease-in-out;
+     transform: scale(1.2);
+    border-radius: 40px;
+}
+
+.productcat ul{
+  list-style: none;
+  
+  
+}
+
+.productcat ul li{
+  display: contents;
+}
+
+/** 2nd cat**/
+.productcat2{
+  position: relative;
+  left: 209px;
+  top: 50px;
+  width: 990px;
+  margin-bottom: 100px;
+  
+}
+
+.productcat2 .tag2{
+  position: relative;
+  left: 370px;
+}
+
+.productcat2 img{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+ 
+}
+
+.productcat2 img:hover{
+    background-color: grey;
+    transition: all 0.4s ease-in-out;
+     transform: scale(1.2);
+    border-radius: 40px;
+}
+
+.productcat2 ul{
+  list-style: none;
+  
+  
+}
+
+.productcat2 ul li{
+  display: contents;
+}
+
+/**end of 2nd cat**/
+
+.moreproducts{
+  position: relative;
+  left: 170px;
+}
+
+.moreproducts .tag3{
+  position: relative;
+  left: 380px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container{
+  position: relative;
+  background-color: rgb(207, 211, 205);
+  margin: 20px;
+  height: 300px;
+  
+}
+
+.container:hover{
+  transform:scale(1.1);
+  transition: all 0.4s ease-in-out;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+.moreprodcont{
+  display: flex;
+  
+
+}
+
+.moreprodcont a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.imgcontainer{
+  position: relative;
+  top: 10px;
+  display:flex;
+  width: 170px;
+  height: 170px;
+  margin: 20px;
+}
+
+.imgcontent{
+  position: relative;
+  left: 10px;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.imgcontent h5{
+  margin: 0px;
+  position: relative;
+  top: 25px;
+}
+
+
+
+/**End of Product categories**/
+
+
+
+/**Product page**/
+
+.produk .imahe img{
+  position: relative;
+  width: 25%;
+  max-height: auto;
+  left: 100px;
+  top: 100px;
+ }
+
+.produk .name h3{
+  position: relative;
+  left: 450px;
+  bottom: 180px;
+  font-style: italic;
+  font-size: 18px;
+  color: rgb(0, 0, 0, 0.4);
+}
+
+.produk .name p{
+  position: relative;
+  left: 450px;
+  bottom: 180px;
+  font-size: 25px;
+}
+
+.produk .availability h4{
+  position: relative;
+  left: 450px;
+  bottom: 90px;
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+hr{
+  position: relative;
+  left: 35.8%;
+  width: 50%;
+  bottom: 69px;
+}
+
+.produk .price p{
+  position: relative;
+  left: 450px;
+  bottom: 60px;
+  font-size: 35px;
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.functions .buy h4{
+  position: relative;
+  max-width: 120px;
+  padding: 10px;
+  text-align: center;
+  left: 660px;
+  bottom: 95px;
+  color: white;
+  background-color: rgb(193, 236, 23, 1.0);
+}
+
+.functions .cart h4{
+  position: relative;
+  max-width: 120px;
+  padding: 10px;
+  text-align: center;
+  left: 810px;
+  bottom: 134px;
+  color: white;
+  background-color: rgb(51, 62, 72, 1.0);
+}
+
+.functions .wishlist a{
+  position: relative;
+  left: 663px;
+  bottom: 122px;
+}
+
+.functions .wishlist h4{
+  position: relative;
+  left: 35px;
+  bottom: 25px;
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.GUI .share{
+  position: relative;
+  left: 960px;
+  bottom: 274px;
+  opacity: 2.0;
+}
+
+.GUI .review{
+  position: relative;
+  bottom: 390px;
+  left: 450px;
+}
+
+.GUI .review a h6{
+  position: relative;
+  bottom: 16px;
+  left: 104px;
+  color: rgb(9, 88, 131, 1.0);
+}
+
+.produkdes{
+  position: relative;
+  left: 115px;
+  bottom: 155px;
+}
+
+.produkdes .box{
+  position: relative;
+  background: rgb(255, 255, 255, 1.0);
+  max-width: 1000px;
+  height: 1120px;
+  padding: 25px ;
+  right: 15px;
+}
+
+.produkhead h2{
+  position: relative;
+  max-height: 500px;
+  max-width: 300px;;
+  bottom:1px;
+  color: rgb(0, 0, 0, 0.8);
+}  
+
+.descrip p{
+  position: relative;
+  max-height: 500px;
+  max-width: 1015px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  top: 70px;
+  color: rgb(0, 0, 0, 0.8);
+  text-align: justify;
+  font-size: 90%;
+}
+
+.produkdes .box .descrip ul{
+  position: relative;
+  left: 35px;
+  top: 75px;
+  font-size: 14px;
+}
+
+.produkdes .box .descrip ul b{
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.produkdes .box .descrip ul li{
+  position: relative;
+  font-family: arial;
+  left: 30px;
+  top: 5px;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+
+
+.readmore{
+  display: none;
+
+}
+
+.readmorebtn{
+  position: relative;
+  bottom: 980px;
+  
+  opacity: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  width: 1020px;
+}
+
+.text.show-more .readmore{
+  display: inline;
+}
+
+
+
+/**End of Product page**/
+
+
+/**Desktop and Laptop**/
+
+.moreproducts2{
+  position: relative;
+  top: 100px;
+  left: 170px;
+}
+
+.moreproducts2 .tag3{
+  position: relative;
+  left: 380px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container2{
+  position: relative;
+  background-color: rgb(207, 211, 205);
+  margin: 20px;
+  height: 300px;
+  
+}
+
+.container2:hover{
+  transform:scale(1.1);
+  transition: all 0.4s ease-in-out;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+.moreprodcont2{
+  display: flex;
+  
+
+}
+
+.moreprodcont2 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.imgcontainer2{
+  position: relative;
+  top: 10px;
+  display:flex;
+  width: 170px;
+  height: 170px;
+  margin: 20px;
+}
+
+.imgcontent2{
+  position: relative;
+  left: 10px;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.imgcontent2 h5{
+  margin: 0px;
+  position: relative;
+  top: 25px;
+}
+/**End of desktop and Laptop**/
+
+/**Peripherals**/
+.moreproducts3{
+  position: relative;
+  left: 170px;
+}
+
+.moreproducts3 .tag3{
+  position: relative;
+  left: 351px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container3{
+  position: relative;
+  right: 120px;
+  top: 80px;
+  background-color: rgb(207, 211, 205);
+  margin: 20px;
+  height: 300px;
+  
+}
+
+.container3:hover{
+  transform:scale(1.1);
+  transition: all 0.4s ease-in-out;
+  border: 1px solid red;
+  border-radius: 20px;
+  
+}
+
+.moreprodcont3{
+  display: flex;
+}
+
+.moreprodcont3 h2{
+  position: relative;
+  top: 31px;
+  left: 447px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: bold;
+
+}
+
+.moreprodcont3 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.imgcontainer3{
+  position: relative;
+  top: 10px;
+  display:flex;
+  width: 170px;
+  height: 170px;
+  margin: 20px;
+}
+
+.imgcontent3{
+  position: relative;
+  left: 10px;
+  margin: 10px;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgcontent3 h5{
+  margin: 0px;
+  position: relative;
+  top: 25px;
+}
+/**End of Peripherals**/
+
+
+
+
+
+/**About Us**/
+
+
+
+/**end of About us**/
+
+ footer{
+    position: relative;
+    display: flex;
+    top: 700px;
+    background-color:rgb(3, 28, 50);
+    
+    
+
+  }
+  footer img{
+    position: relative;
+    left: 70px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+
+  footer ul{
+    position: relative;
+    left: 55%;
+    display: flex;
+
+    
+  }
+
+  footer ul li{
+    
+    display: flex; 
+    margin: 20px;
+   
+  }
+  
+  footer ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 19px;
+  }
